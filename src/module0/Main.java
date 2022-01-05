@@ -1,8 +1,9 @@
 package module0;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
-        String s = "Hello";
-        System.out.println(s);
+        JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
     }
 }
