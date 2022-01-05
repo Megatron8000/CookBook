@@ -4,6 +4,6 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
+        JOptionPane.showMessageDialog(null, "Значок, что ты дурачок", "Алоха Пидароха!", 1);
     }
 }
