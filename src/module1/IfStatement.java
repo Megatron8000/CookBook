@@ -1,8 +1,6 @@
 package module1;
 
 public class IfStatement {
-
-
     public void foo(){
         int a, b;
         a = 5;
@@ -10,8 +8,6 @@ public class IfStatement {
 
         if (a < b){
             System.out.println("True");
-        } else {
-            System.out.println("False");
-        }
+        } else System.out.println("False");
     }
 }
