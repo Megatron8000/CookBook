@@ -12,6 +12,6 @@ public class Main {
        ForStatement loop = new ForStatement();
        loop.foo();
 
-   }
-}
+   } //method main
+}  //class Main
 

@@ -19,5 +19,5 @@ public class IfStatement {
         if (d > 0){
             System.out.println("D больше нуля");
         } else System.out.println("D меньше нуля");
-    }
-}
+    } //method foo
+} //class IfStatement
