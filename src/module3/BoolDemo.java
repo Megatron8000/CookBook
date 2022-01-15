@@ -9,5 +9,9 @@ public class BoolDemo {
         System.out.println("Значение b " + b);
 
         System.out.println("Значение выражения 10 < 9 " + (10 < 9));
+
+        if (4 > 56){
+            System.out.println("JOPA");
+        }
     } //method
 } //class
