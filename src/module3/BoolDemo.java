@@ -12,7 +12,6 @@ public class BoolDemo {
 
         if (4 > 56){
             System.out.println("JOPA");
-
         }
     } //method
 } //class
