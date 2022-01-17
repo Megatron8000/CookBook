@@ -6,6 +6,9 @@ public class ScopeDemo {
         System.out.println("До вложенного блока I = " + i);
         {
             int j = 3; //эта переменная доступна только внутри фигурных скобок
+
+            int x = i + j;
+            System.out.println(x);
         }
     } //method
 } //class
