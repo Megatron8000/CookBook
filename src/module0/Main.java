@@ -10,8 +10,8 @@ public class Main {
    public static void main(String[] args) {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
-       Cylinder cylinder = new Cylinder();
-       cylinder.foo();
+       ScopeDemo scopeDemo = new ScopeDemo();
+       scopeDemo.foo();
    } //method main
 }  //class Main
 
