@@ -10,8 +10,8 @@ public class Main {
    public static void main(String[] args) {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
-       ScopeDemo scopeDemo = new ScopeDemo();
-       scopeDemo.foo();
+      Ariphmetic ariphmetic = new Ariphmetic();
+      ariphmetic.foo();
    } //method main
 }  //class Main
 
