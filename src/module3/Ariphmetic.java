@@ -14,6 +14,6 @@ public class Ariphmetic {
         dresult = 10.0 / 3.0;
         dremain = 10/.0 % 3.0;
         System.out.println(dresult);
-        System.out.println(dresult);
+        System.out.println(dremain);
     }
 }
