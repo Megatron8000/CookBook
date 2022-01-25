@@ -16,6 +16,5 @@ public class ByteOperation {
 
         int d = ~y;
         System.out.println("Результат операции ~(NOT) y будет " + c);
-
     }
 }

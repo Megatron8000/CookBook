@@ -9,9 +9,9 @@ import javax.swing.*;
 public class Main {
    public static void main(String[] args) {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
+      ByteOperation byteOperation = new ByteOperation();
+      byteOperation.foo();
 
-      Logic logic = new Logic();
-      logic.foo();
    } //method main
 }  //class Main
 
