@@ -11,8 +11,8 @@ public class Main {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
 
-    Explicit explicit = new Explicit();
-    explicit.foo();
+    SwitchDemo switchDemo = new SwitchDemo();
+    switchDemo.foo();
 
    } //method main
 }  //class Main
