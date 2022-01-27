@@ -11,8 +11,9 @@ public class Main {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
 
-      Ternar ternar = new Ternar();
-      ternar.foo();
+    Explicit explicit = new Explicit();
+    explicit.foo();
+
    } //method main
 }  //class Main
 
