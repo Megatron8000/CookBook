@@ -4,5 +4,7 @@ public class Explicit {
     public void foo(){
         int i = 10;
         double d = i; // приведение переменной одного типа к другому
+        System.out.println(i);
+        System.out.println(d);
     }
 }
