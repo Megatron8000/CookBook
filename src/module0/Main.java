@@ -9,10 +9,12 @@ import javax.swing.*;
 
 public class Main {
    public static void main(String[] args) {
-       /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
-
+       /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
        ForStatement forStatement = new ForStatement();
-       forStatement.foo();
+       forStatement.foo();*/
+
+       ForLoop forLoop = new ForLoop();
+       forLoop.foo();
    } //method main
 }  //class Main
 
