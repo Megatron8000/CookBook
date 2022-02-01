@@ -13,8 +13,6 @@ public class Main {
        ForStatement forStatement = new ForStatement();
        forStatement.foo();*/
 
-       ForLoop forLoop = new ForLoop();
-       forLoop.foo();
    } //method main
 }  //class Main
 
