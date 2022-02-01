@@ -1,6 +1,7 @@
 package module0;
 
 import module1.IfStatement;
+import module2.DoWhileDemo;
 import module2.ForLoop;
 import module2.ForStatement;
 import module2.WhileLoop;
@@ -14,8 +15,8 @@ public class Main {
        ForStatement forStatement = new ForStatement();
        forStatement.foo();*/
 
-       WhileLoop whileLoop = new WhileLoop();
-       whileLoop.foo();
+       DoWhileDemo doWhileDemo = new DoWhileDemo();
+       doWhileDemo.foo();
    } //method main
 }  //class Main
 
