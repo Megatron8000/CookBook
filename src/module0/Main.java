@@ -11,12 +11,10 @@ import javax.swing.*;
 
 public class Main {
    public static void main(String[] args) {
-       /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
-       ForStatement forStatement = new ForStatement();
-       forStatement.foo();*/
+       /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
-       DoWhileDemo doWhileDemo = new DoWhileDemo();
-       doWhileDemo.foo();
+
+
    } //method main
 }  //class Main
 
