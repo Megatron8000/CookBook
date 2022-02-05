@@ -10,8 +10,8 @@ public class Main {
    public static void main(String[] args) {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
-       BreakDemo breakDemo = new BreakDemo();
-       breakDemo.foo();
+       ContinueDemo continueDemo = new ContinueDemo();
+       continueDemo.foo();
 
    } //method main
 }  //class Main
