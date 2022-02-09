@@ -12,8 +12,8 @@ public class Main {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
        Vehicle vehicle = new Vehicle();
-       vehicle.name = "CAR";
        vehicle.setMaxspeed(220);
+       vehicle.setSpeedLimit(60);
        double averageSpeed = vehicle.getMaxspeed() * 0.5;
        System.out.println();
 
