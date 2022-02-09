@@ -14,8 +14,8 @@ public class Main {
        Vehicle vehicle = new Vehicle();
        vehicle.name = "CAR";
        vehicle.setMaxspeed(220);
-       System.out.println(vehicle.name);
-       System.out.println(vehicle.getMaxspeed());
+       double averageSpeed = vehicle.getMaxspeed() * 0.5;
+       System.out.println();
 
    } //method main
 }  //class Main
