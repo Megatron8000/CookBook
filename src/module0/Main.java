@@ -15,7 +15,10 @@ public class Main {
        vehicle.setMaxspeed(220);
        vehicle.setSpeedLimit(60);
        double averageSpeed = (vehicle.getMaxspeed() + vehicle.getSpeedLimit()) / 2;
+       double maxSpeedDistance = vehicle.getMaxspeed() * 0.2;
+       System.out.println(maxSpeedDistance);
        System.out.println(averageSpeed);
+
 
    } //method main
 }  //class Main
