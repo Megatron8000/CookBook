@@ -6,10 +6,13 @@ public class Vehicle {
     private int seats;
     private int maxspeed;
     private int speedLimit;
+    private int burnup;
 
-    public int getSeats() {
-        return seats;
-    }
+
+
+
+
+    public int getSeats() {return seats;}
 
     public void setSeats(int seats) {
         this.seats = seats;
@@ -23,11 +26,11 @@ public class Vehicle {
         this.maxspeed = maxspeed;
     }
 
-    public int getSpeedLimit() {
-        return speedLimit;
-    }
+    public int getSpeedLimit() {return speedLimit;}
 
-    public void setSpeedLimit(int speedLimit) {
-        this.speedLimit = speedLimit;
-    }
+    public void setSpeedLimit(int speedLimit) {this.speedLimit = speedLimit;}
+
+    public int getBurnup() {return burnup;}
+
+    public void setBurnup(int burnup) {this.burnup = burnup;}
 }
