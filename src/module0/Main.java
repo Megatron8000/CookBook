@@ -11,14 +11,15 @@ public class Main {
    public static void main(String[] args) {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
-       Vehicle vehicle = new Vehicle();
-       vehicle.setMaxspeed(220);
-       vehicle.setSpeedLimit(60);
-       double averageSpeed = (vehicle.getMaxspeed() + vehicle.getSpeedLimit()) / 2;
-       double maxSpeedDistance = vehicle.getMaxspeed() * 0.2;
-       System.out.println(maxSpeedDistance);
-       System.out.println(averageSpeed);
+       Vehicle cabriolet = new Vehicle();
+       cabriolet.setMaxspeed(220);
 
+       Vehicle bus = new Vehicle();
+       bus.setMaxspeed(80);
+
+       double time = 0.76;
+
+       cabriolet.distance(time);
 
    } //method main
 }  //class Main
