@@ -20,6 +20,7 @@ public class Main {
        double time = 0.76;
 
        cabriolet.distance(time);
+       bus.distance(time);
 
    } //method main
 }  //class Main
