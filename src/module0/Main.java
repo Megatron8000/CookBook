@@ -23,8 +23,11 @@ public class Main {
 
        double time = 0.76;
 
-       cabriolet.distance(time);
-       bus.distance(time);
+       double routeCabrio =  cabriolet.distance(time);
+       double routeBus = bus.distance(time);
+
+       System.out.println(routeCabrio);
+       System.out.println(routeBus);
 
    } //method main
 }  //class Main
