@@ -8,9 +8,9 @@ public class Vehicle {
     private int speedLimit;
     private int burnup;
 
-       public void distance(double time){
+       public double distance(double time){
             double value = maxspeed * time;
-            System.out.println("за " + time + " часов, пройденное рассторяние составит " + value + " км");
+            return value;
         }
 
 

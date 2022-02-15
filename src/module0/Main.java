@@ -15,6 +15,17 @@ public class Main {
        ReturnDemo rd = new ReturnDemo();
        rd.foo();
 
+       Vehicle cabriolet = new Vehicle();
+       cabriolet.setMaxspeed(220);
+
+       Vehicle bus = new Vehicle();
+       bus.setMaxspeed(80);
+
+       double time = 0.76;
+
+       cabriolet.distance(time);
+       bus.distance(time);
+
    } //method main
 }  //class Main
 
