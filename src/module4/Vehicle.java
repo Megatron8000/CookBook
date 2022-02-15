@@ -1,39 +1,21 @@
 package module4;
 
 public class Vehicle {
-    public String name;
-    public String color;
-    private int seats;
     private int maxspeed;
-    private int speedLimit;
-    private int burnup;
-
-       public double distance(double time){
-            double value = maxspeed * time;
-            return value;
-        }
+    private String color;
 
 
-
-    public int getSeats() {return seats;}
-
-    public void setSeats(int seats) {
-        this.seats = seats;
+    public Vehicle(int ms, String c){
+        maxspeed = ms;
+        color = c;
     }
 
-    public int getMaxspeed() {
-        return maxspeed;
+    double distance(double time){
+        double value = maxspeed * time;
+        return value;
     }
-
-    public void setMaxspeed(int maxspeed) {
-        this.maxspeed = maxspeed;
-    }
-
-    public int getSpeedLimit() {return speedLimit;}
-
-    public void setSpeedLimit(int speedLimit) {this.speedLimit = speedLimit;}
-
-    public int getBurnup() {return burnup;}
-
-    public void setBurnup(int burnup) {this.burnup = burnup;}
 }
+
+
+
+
