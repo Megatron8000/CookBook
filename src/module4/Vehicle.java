@@ -10,7 +10,7 @@ public class Vehicle {
         color = c;
     }
 
-    double distance(double time){
+    public double distance(double time){
         double value = maxspeed * time;
         return value;
     }
