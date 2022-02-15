@@ -5,6 +5,7 @@ import module2.*;
 import module3.*;
 import module4.ReturnDemo;
 import module4.Vehicle;
+import module5.Ten;
 
 import javax.swing.*;
 
@@ -28,6 +29,15 @@ public class Main {
 
        System.out.println(routeCabrio);
        System.out.println(routeBus);
+
+       Ten sample1 = new Ten();
+       Ten sample2 = new Ten();
+
+       if (sample1.x == sample2.x)
+           System.out.println(sample1.x + " = " + sample2.x);
+
+
+
 
    } //method main
 }  //class Main
