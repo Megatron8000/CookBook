@@ -1,17 +1,17 @@
 package module4;
 
 public class Vehicle {
-    private int maxspeed;
-    private String color;
+    public int maxspeed;
+    public String color;
 
 
-    public Vehicle(int ms, String c){
-        maxspeed = ms;
-        color = c;
+    public Vehicle(int maxspeeds, String color){
+        maxspeed = this.maxspeed; //ключевое слово this используется когда  имя локальной переменной совпадает с иманем переменной члена класса
+        color = this.color;
     }
 
     public double distance(double time){
-        double value = maxspeed * time;
+        double value = this.maxspeed * time;
         return value;
     }
 }
