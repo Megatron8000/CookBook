@@ -7,6 +7,7 @@ import module4.ReturnDemo;
 import module4.Vehicle;
 import module5.Number;
 import module5.Ten;
+import module6.ArrayDemo;
 
 import javax.swing.*;
 
@@ -14,7 +15,7 @@ public class Main {
    public static void main(String[] args) {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
-        Vehicle cabriolet = new Vehicle(250, "black");
+        /*Vehicle cabriolet = new Vehicle(250, "black");
         Vehicle bike = new Vehicle(330, "red");
         Vehicle bus = new Vehicle(80, "blue");
 
@@ -24,10 +25,11 @@ public class Main {
 
        System.out.println(distance);
        System.out.println(distance1);
-       System.out.println(distance2);
+       System.out.println(distance2);*/
 
 
-
+       ArrayDemo ad = new ArrayDemo();
+       ad.foo();
 
 
 
