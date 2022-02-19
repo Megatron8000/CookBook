@@ -13,5 +13,18 @@ public class ArrayDemo {
         guests[5] = new int[14];
         guests[6] = new int[16];
         System.out.println(guests[5]);
+
+
+        //вариант инициалиизации массива
+        int array[][] = new int[4][3];
+        int i;
+        for (int c = 0; c < 4; c++){  //цикл для первой рамерности массмва
+            i = 0;
+                while (i < 3){
+                    i++;
+
+                } //цикл для второй
+            System.out.println("array [" + c +"] [" + i + "]");
+        }
     }
 }
