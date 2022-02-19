@@ -12,6 +12,6 @@ public class ArrayDemo {
         guests[4] = new int[99];
         guests[5] = new int[14];
         guests[6] = new int[16];
-        System.out.println(guests);
+        System.out.println(guests[5]);
     }
 }
