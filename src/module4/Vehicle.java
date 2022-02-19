@@ -6,8 +6,8 @@ public class Vehicle {
 
 
     public Vehicle(int maxspeed, String color){
-        maxspeed = this.maxspeed; //ключевое слово this используется когда  имя локальной переменной совпадает с иманем переменной члена класса
-        color = this.color;
+        this.maxspeed = maxspeed; //ключевое слово this используется когда  имя локальной переменной совпадает с иманем переменной члена класса
+        this.color = color;
     }
 
     public double distance(double time){
