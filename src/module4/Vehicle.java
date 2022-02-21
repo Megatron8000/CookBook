@@ -1,7 +1,7 @@
 package module4;
 
 public class Vehicle {
-    public int maxspeed;
+    private int maxspeed;
     public String color;
 
 
