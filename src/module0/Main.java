@@ -15,9 +15,13 @@ public class Main {
    public static void main(String[] args) {
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
 
-        Vehicle cabriolet = new Vehicle(250, "black");
-        Vehicle bike = new Vehicle(320, "red");
-        Vehicle bus = new Vehicle(80, "blue");
+        Vehicle cabriolet = new Vehicle(250, "black", 4);
+        Vehicle bike = new Vehicle(320, "red", 2);
+        Vehicle bus = new Vehicle(80, "blue", 6);
+        Vehicle rig = new Vehicle(160, "green", 18);
+
+        rig.setWheels(24); //роверка условия по ограничению допустимого значения
+
 
         double distance = cabriolet.distance(1.54);
         double distance1 = bike.distance(0.924);
