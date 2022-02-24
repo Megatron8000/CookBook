@@ -37,11 +37,12 @@ public class Vehicle {
         return wheels;
     }
 
-    public void setWheels(int wheels) {
-        if ((wheels < 2 ) || (wheels > 18)) {
+    public int setWheels(int wheels) {
+        if ((wheels > 2 ) || (wheels < 18)) {
             System.out.println("Invalid wheels value");
         }
         this.wheels = wheels;
+        return wheels;
     }
 }
 

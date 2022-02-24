@@ -20,7 +20,9 @@ public class Main {
         Vehicle bus = new Vehicle(80, "blue", 6);
         Vehicle rig = new Vehicle(160, "green", 18);
 
-        rig.setWheels(24); //роверка условия по ограничению допустимого значения
+        int countWheels = rig.setWheels(24);
+
+       System.out.println(countWheels);  //проверка условия по ограничению допустимого значения
 
 
         double distance = cabriolet.distance(1.54);
