@@ -6,6 +6,7 @@ import module3.*;
 import module4.ReturnDemo;
 import module4.Vehicle;
 import module5.Number;
+import module5.ParamsValue;
 import module5.Ten;
 import module6.ArrayDemo;
 
@@ -36,6 +37,12 @@ public class Main {
 
       ArrayDemo ad = new ArrayDemo();
        ad.foo();
+
+       int a = 55;
+       int b = 35;
+       //передача параметров по значению
+       ParamsValue pm = new ParamsValue();
+       pm.call(b, a);
 
 
 
