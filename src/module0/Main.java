@@ -48,11 +48,11 @@ public class Main {
        ParamsRef q = new ParamsRef(2, 6);
        ParamsRef d = new ParamsRef(2, 6);
 
-       System.out.println("q.x = " + q.x);
+       System.out.println("q.x = " + q.x);  //создаюется объекты классов
        System.out.println("q.y = " + q.y);
 
 
-       d.callRef(q);
+       d.callRef(q);  //в параметры метода callRef()  объекта d в качестве параметра передан объект q
        System.out.println("q.y = " + q.y);
        System.out.println("q.x = " + q.x);
 
