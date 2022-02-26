@@ -1,7 +1,8 @@
 package module5;
 
 public class ParamsRef {
-    int x, y;
+    public int x;
+    public int y;
 
     public ParamsRef(int x, int y){
         this.x = x;

@@ -6,6 +6,7 @@ import module3.*;
 import module4.ReturnDemo;
 import module4.Vehicle;
 import module5.Number;
+import module5.ParamsRef;
 import module5.ParamsValue;
 import module5.Ten;
 import module6.ArrayDemo;
@@ -44,6 +45,16 @@ public class Main {
        ParamsValue pm = new ParamsValue();
        pm.call(b, a);
 
+       ParamsRef q = new ParamsRef(2, 6);
+       ParamsRef d = new ParamsRef(2, 6);
+
+       System.out.println("q.x = " + q.x);
+       System.out.println("q.y = " + q.y);
+
+
+       d.callRef(q);
+       System.out.println("q.y = " + q.y);
+       System.out.println("q.x = " + q.x);
 
 
    } //method main
