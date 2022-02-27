@@ -10,6 +10,7 @@ import module5.ParamsRef;
 import module5.ParamsValue;
 import module5.Ten;
 import module6.ArrayDemo;
+import package7.Basket;
 
 import javax.swing.*;
 
@@ -55,6 +56,16 @@ public class Main {
        d.callRef(q);  //в параметры метода callRef()  объекта d в качестве параметра передан объект q
        System.out.println("q.y = " + q.y);
        System.out.println("q.x = " + q.x);
+
+       Basket cash = new Basket();
+       Basket card = new Basket();
+       Basket check = new Basket();
+
+       cash.pay(95.99);
+       card.pay("1122 3344 5566 7788");
+       check.pay("1212121212", "some bank");
+
+
 
 
    } //method main
