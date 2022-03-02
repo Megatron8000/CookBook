@@ -5,12 +5,15 @@ public class Vehicle {
     private String color;
     private  int wheels;
 
-
+//конструктор с параметрами, инициализирующий переменные объекта значениями из вызывающей программы
     public Vehicle(int maxspeed, String color, int wheels){
         this.maxspeed = maxspeed; //ключевое слово this используется когда  имя локальной переменной совпадает с иманем переменной члена класса
         this.color = color;
         this.wheels = wheels;
     }
+
+//конструктор без переметров, инициализирующий переменные объекта с дефолтными значениями
+
 
     public double distance(double time){
         double value = this.maxspeed * time;
