@@ -13,7 +13,11 @@ public class Vehicle {
     }
 
 //конструктор без переметров, инициализирующий переменные объекта с дефолтными значениями
-
+    public Vehicle(){
+        this.maxspeed = 220;
+        this.color = "Blue";
+        this.wheels = 4;
+    }
 
     public double distance(double time){
         double value = this.maxspeed * time;
