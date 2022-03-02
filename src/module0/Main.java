@@ -22,6 +22,8 @@ public class Main {
         Vehicle bike = new Vehicle(320, "red", 2);
         Vehicle bus = new Vehicle(80, "blue", 6);
         Vehicle rig = new Vehicle(160, "green", 18);
+        Vehicle priora = new Vehicle();
+        System.out.println(priora.getColor());
 
         int countWheels = rig.setWheels(24);
 
