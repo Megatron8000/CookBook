@@ -1,8 +1,8 @@
 package module4;
 
 public class Vehicle {
-    private int maxspeed;
     private String color;
+    private int maxspeed;
     private  int wheels;
 
 //конструктор с параметрами, инициализирующий переменные объекта значениями из вызывающей программы
@@ -14,9 +14,7 @@ public class Vehicle {
 
 //конструктор без переметров, инициализирующий переменные объекта с дефолтными значениями
     public Vehicle(){
-        this.maxspeed = 220;
-        this.color = "Blue";
-        this.wheels = 4;
+     this(220,"Blue",4);
     }
 
     public double distance(double time){
