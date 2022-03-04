@@ -18,8 +18,8 @@ public class Vehicle {
     }
 
     public double distance(double time){
-        double value = this.maxspeed * time;
-        return value;
+
+        return ((double) time);
     }
 
     public int getMaxspeed() {
