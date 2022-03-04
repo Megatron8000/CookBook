@@ -16,6 +16,7 @@ public class Vehicle {
     public Vehicle(){
      this(220,"Blue",4);
     }
+
     /*запись выше равнознача  с такой формой:
       public Vehicle(){
       this.maxspeed = 220;
