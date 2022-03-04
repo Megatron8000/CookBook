@@ -17,16 +17,15 @@ public class Vehicle {
      this(220,"Blue",4);
     }
     /*запись выше равнознача  с такой формой:
-    public Vehicle(){
-        this.maxspeed = 220;
-        this.color = "Blue";
-        this.wheels = 4;
-    }*/
-
+      public Vehicle(){
+      this.maxspeed = 220;
+      this.color = "Blue";
+      this.wheels = 4;
+        }*/
 
     public double distance(double time){
-
-        return ((double) time);
+        double value = this.maxspeed * time;
+        return value;
     }
 
     public int getMaxspeed() {

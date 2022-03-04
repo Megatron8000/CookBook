@@ -33,10 +33,13 @@ public class Main {
         double distance = cabriolet.distance(1.54);
         double distance1 = bike.distance(0.924);
         double distance2 = bus.distance(2.6);
+        double distance3 = priora.distance(5.6);
+
 
        System.out.println(distance);
        System.out.println(distance1);
        System.out.println(distance2);
+       System.out.println(distance3);
 
 
       ArrayDemo ad = new ArrayDemo();
