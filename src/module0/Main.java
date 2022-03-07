@@ -78,9 +78,6 @@ public class Main {
        for (int r = 1; r <= 6; r++){
            System.out.println(r + "! = " + Factorial.computeR(r));
        }
-
-
-
    } //method main
 }  //class Main
 
