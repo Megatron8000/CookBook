@@ -3,6 +3,7 @@ package module0;
 import module1.IfStatement;
 import module2.*;
 import module3.*;
+import module4.Factorial;
 import module4.ReturnDemo;
 import module4.Vehicle;
 import module5.Number;
@@ -70,10 +71,12 @@ public class Main {
        card.pay("1122 3344 5566 7788");
        check.pay("1212121212", "some bank");
 
-       ForFactorial forFactorial = new ForFactorial();
-       System.out.println("Вычисление факториала в цикле:");
-       for (int i = 6; i > 0; i++){
-           System.out.println(i + "! = " + ForFactorial.computeI(i));
+
+
+       Factorial factorial = new Factorial();
+       System.out.println("Вычисление факториала рекурсией:");
+       for (int r = 1; r <= 6; r++){
+           System.out.println(r + "! = " + Factorial.computeR(r));
        }
 
 
