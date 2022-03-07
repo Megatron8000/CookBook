@@ -70,6 +70,11 @@ public class Main {
        card.pay("1122 3344 5566 7788");
        check.pay("1212121212", "some bank");
 
+       ForFactorial forFactorial = new ForFactorial();
+       System.out.println("Вычисление факториала в цикле:");
+       for (int i = 6; i > 0; i++){
+           System.out.println(i + "! = " + ForFactorial.computeI(i));
+       }
 
 
 
