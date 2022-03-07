@@ -7,7 +7,6 @@ public class Factorial {
             if (o == 1) return  o;
             return computeR(o - 1) * o;
            }
-
        }
 
 
