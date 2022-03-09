@@ -5,6 +5,7 @@ import module2.*;
 import module3.*;
 import module4.Factorial;
 import module4.ReturnDemo;
+import module4.StaticBlock;
 import module4.Vehicle;
 import module5.Number;
 import module5.ParamsRef;
@@ -78,6 +79,12 @@ public class Main {
        for (int r = 1; r <= 6; r++){
            System.out.println(r + "! = " + Factorial.computeR(r));
        }
+
+       StaticBlock sb = new StaticBlock(4);
+       System.out.println(sb.num);
+       System.out.println(StaticBlock.rootOf9);
+
+
    } //method main
 }  //class Main
 
