@@ -12,6 +12,7 @@ import module5.ParamsRef;
 import module5.ParamsValue;
 import module5.Ten;
 import module6.ArrayDemo;
+import module8.Auto;
 import package7.Basket;
 
 import javax.swing.*;
@@ -25,11 +26,19 @@ public class Main {
         Vehicle bus = new Vehicle(80, "blue", 6);
         Vehicle rig = new Vehicle(160, "green", 18);
         Vehicle priora = new Vehicle();
+
         System.out.println(priora.getColor());
 
         int countWheels = rig.setWheels(24);
 
        System.out.println(countWheels);  //проверка условия по ограничению допустимого значения
+
+       Auto audi = new Auto();
+       audi.setSunroof(false);
+       audi.setMaxspeed(240);
+       System.out.println("Максимальная скорость автомобиля " + audi.getMaxspeed());
+       System.out.println("Расстояние на максимальной скорости за 4,2 часа " + audi.distance(4.2) + " километров");
+
 
 
         double distance = cabriolet.distance(1.54);
