@@ -33,9 +33,7 @@ public class Main {
 
        System.out.println(countWheels);  //проверка условия по ограничению допустимого значения
 
-       Auto audi = new Auto();
-       audi.setSunroof(false);
-       audi.setMaxspeed(240);
+       Auto audi = new Auto(true);
        System.out.println("Максимальная скорость автомобиля " + audi.getMaxspeed());
        System.out.println("Расстояние на максимальной скорости за 4,2 часа " + audi.distance(4.2) + " километров");
 
