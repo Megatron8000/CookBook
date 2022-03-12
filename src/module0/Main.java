@@ -33,11 +33,6 @@ public class Main {
 
        System.out.println(countWheels);  //проверка условия по ограничению допустимого значения
 
-       Auto audi = new Auto(true);
-       System.out.println("Максимальная скорость автомобиля " + audi.getMaxspeed());
-       System.out.println("Расстояние на максимальной скорости за 4,2 часа " + audi.distance(4.2) + " километров");
-
-
 
         double distance = cabriolet.distance(1.54);
         double distance1 = bike.distance(0.924);
@@ -90,6 +85,13 @@ public class Main {
        StaticBlock sb = new StaticBlock(4);
        System.out.println(sb.num);
        System.out.println(StaticBlock.rootOf9);
+
+       //демонстрация переопределения методов
+      Vehicle v = new Vehicle(260, "yellow", 4);
+      Auto au = new Auto(330, "orange", 4, true);
+       System.out.println(v.toString());
+       System.out.println(au.toString());
+
 
 
    } //method main

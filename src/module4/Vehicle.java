@@ -30,9 +30,9 @@ public class Vehicle {
     }
 
     public String toString() {
-        return "Vehicle (maxspeed = " + maxspeed + ";" +
-                "color = " + color + ";" +
-                "wheels = " + wheels + ";" + ")";
+        return "Vehicle (maxspeed = " + maxspeed + "; " +
+                "color = " + color + "; " +
+                "wheels = " + wheels + "; " + ")";
     }
 
     public int getMaxspeed() {
