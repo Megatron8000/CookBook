@@ -9,8 +9,20 @@ public class Auto extends Vehicle {
             super(330, "green", 4); // вызов конструктора класса Vehicle
         }
 
-    public boolean isSunroof() {
-        return sunroof;
+        Auto (int maxspeed, String color, int wheels, boolean sunroof){  //конструктор Auto с параметрами
+           super(maxspeed, color, wheels);
+           this.sunroof = sunroof;
+       }
+
+
+        public String toString() {
+            return "Auto (maxspeed = " + super.getMaxspeed() + ";" +
+                    "color = " + super.getColor() + ";" +
+                    "wheels = " + super.getWheels() + ";" +
+                    "sunroof = " + sunroof + ") ";
+
+
+
     }
 
     public void setSunroof(boolean sunroof) {
