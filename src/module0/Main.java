@@ -13,13 +13,14 @@ import module5.ParamsValue;
 import module5.Ten;
 import module6.ArrayDemo;
 import module8.Auto;
+import module8.PolyVehicle;
 import package7.Basket;
 
 import javax.swing.*;
 
 public class Main {
    public static void main(String[] args) {
-       /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");*/
+       JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
 
         Vehicle cabriolet = new Vehicle(250, "black", 4);
         Vehicle bike = new Vehicle(320, "red", 2);
@@ -29,7 +30,7 @@ public class Main {
 
         System.out.println(priora.getColor());
 
-        int countWheels = rig.setWheels(24);
+        int countWheels = rig.setWheels(9);
 
        System.out.println(countWheels);  //проверка условия по ограничению допустимого значения
 
@@ -86,11 +87,14 @@ public class Main {
        System.out.println(sb.num);
        System.out.println(StaticBlock.rootOf9);
 
-       //демонстрация переопределения методов
+     //демонстрация переопределения методов
       Vehicle v = new Vehicle(260, "yellow", 4);
       Auto au = new Auto(330, "orange", 4, true);
        System.out.println(v.toString());
        System.out.println(au.toString());
+
+       PolyVehicle pv = new PolyVehicle();
+       pv.foo();
 
 
 
