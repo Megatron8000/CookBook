@@ -17,10 +17,11 @@ import module8.PolyVehicle;
 import package7.Basket;
 
 import javax.swing.*;
+import java.util.Scanner;
 
 public class Main {
-   public static void main(String[] args) {
-       JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
+  public static void main(String[] args) {
+       /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
 
         Vehicle cabriolet = new Vehicle(250, "black", 4);
         Vehicle bike = new Vehicle(320, "red", 2);
@@ -94,7 +95,15 @@ public class Main {
        System.out.println(au.toString());
 
        PolyVehicle pv = new PolyVehicle();
-       pv.foo();
+       pv.foo();*/
+
+
+      Scanner sc = new Scanner(System.in);
+      String s  = sc.nextLine();
+      int i = sc.nextInt();
+      System.out.println(s);
+      System.out.println(i);
+
 
 
 
