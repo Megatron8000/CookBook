@@ -99,10 +99,9 @@ public class Main {
 
 
       Scanner sc = new Scanner(System.in);
-      String s  = sc.nextLine();
-      int i = sc.nextInt();
-      System.out.println(s);
-      System.out.println(i);
+      String t  = sc.nextLine();
+      System.out.println("Температура воздуха сегодня: " + t + " градусов.");
+
 
 
 
