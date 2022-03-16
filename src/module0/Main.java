@@ -1,22 +1,5 @@
 package module0;
 
-import module1.IfStatement;
-import module2.*;
-import module3.*;
-import module4.Factorial;
-import module4.ReturnDemo;
-import module4.StaticBlock;
-import module4.Vehicle;
-import module5.Number;
-import module5.ParamsRef;
-import module5.ParamsValue;
-import module5.Ten;
-import module6.ArrayDemo;
-import module8.Auto;
-import module8.PolyVehicle;
-import package7.Basket;
-
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -99,8 +82,11 @@ public class Main {
 
 
       Scanner sc = new Scanner(System.in);
-      String t  = sc.nextLine();
-      System.out.println("Температура воздуха сегодня: " + t + " градусов.");
+      String elon = sc.nextLine();
+      String rogozin = sc.nextLine();
+      int inbox = sc.nextInt();
+      System.out.println("Привет, " + elon + ", это твой помощник " + rogozin + ".");
+      System.out.println("У тебя " + inbox + " новых писем.");
 
 
 
