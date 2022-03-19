@@ -4,7 +4,7 @@ public class Point extends Shape{
     public String toString(){
         return "Точка";
     }
-    double area(){
+    public double area(){
         return 0;
     }//площадь точки
 }
