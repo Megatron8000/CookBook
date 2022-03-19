@@ -1,6 +1,6 @@
 package module9;
 
-public class Point {
+public class Point extends Shape{
     public String toString(){
         return "Точка";
     }
