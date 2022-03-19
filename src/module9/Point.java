@@ -6,5 +6,5 @@ public class Point {
     }
     double area(){
         return 0;
-    }//лощадь точки
+    }//площадь точки
 }
