@@ -1,5 +1,10 @@
 package module0;
 
+import module9.Circle;
+import module9.Point;
+import module9.Shape;
+import module9.Triangle;
+
 import java.util.Scanner;
 
 public class Main {
@@ -80,12 +85,15 @@ public class Main {
        PolyVehicle pv = new PolyVehicle();
        pv.foo();*/
 
+      Point p = new Point();
+      Triangle t = new Triangle(12, 36);
+      Circle c = new Circle(54);
+      Shape[] s = {p, t, c};
 
-
-
-
-
-
+      System.out.println("Расчет площади фигур");
+      for (int i = 0; i < s.length; i++) {
+          System.out.println(s[i].toString() + " :" + s[i].area() );
+      }
    } //method main
 }  //class Main
 
