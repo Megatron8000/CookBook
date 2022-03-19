@@ -81,12 +81,6 @@ public class Main {
        pv.foo();*/
 
 
-      Scanner sc = new Scanner(System.in);
-      String elon = sc.nextLine();
-      String rogozin = sc.nextLine();
-      int inbox = sc.nextInt();
-      System.out.println("Привет, " + elon + ", это твой помощник " + rogozin + ".");
-      System.out.println("У тебя " + inbox + " новых писем.");
 
 
 
