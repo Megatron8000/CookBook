@@ -16,5 +16,4 @@ public class Triangle extends Shape {
     public double area(){
         return ((cat1 * cat2) / 2.0);
     } // реализация метода area() для класса Triangle
-
 }
