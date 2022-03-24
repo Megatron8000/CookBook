@@ -1,9 +1,6 @@
 package module0;
 
-import module9.Circle;
-import module9.Point;
-import module9.Shape;
-import module9.Triangle;
+import module9.*;
 
 import java.util.Scanner;
 
@@ -95,6 +92,8 @@ public class Main {
           System.out.println(s[i].toString() + " :" + s[i].area() );
       }
 
+      SomeClass cs = new SomeClass();
+      cs.method();
    } //method main
 }  //class Main
 
