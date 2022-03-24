@@ -94,6 +94,7 @@ public class Main {
       for (int i = 0; i < s.length; i++) {
           System.out.println(s[i].toString() + " :" + s[i].area() );
       }
+
    } //method main
 }  //class Main
 
