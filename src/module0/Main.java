@@ -99,11 +99,16 @@ public class Main {
 
       ExceptionDemo ed = new ExceptionDemo();
       try {
-          ed.divide(8, 3);
+          ed.divide(8, 0);
       } catch (DivisionByZeroException dz){
           System.out.println(dz.message());
       }
+      try {
+          System.out.println(ed.divide(8, 2));
+      } catch (DivisionByZeroException e) {
+          e.printStackTrace();
+      }
 
-   } //method main
+  } //method main
 }  //class Main
 
