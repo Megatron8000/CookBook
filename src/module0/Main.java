@@ -1,5 +1,7 @@
 package module0;
 
+import module10.DivisionByZeroException;
+import module10.ExceptionDemo;
 import module9.*;
 
 import java.util.Scanner;
@@ -95,6 +97,12 @@ public class Main {
       SomeClass cs = new SomeClass();
       cs.method();*/
 
+      ExceptionDemo ed = new ExceptionDemo();
+      try {
+          ed.divide(8, 0);
+      } catch (DivisionByZeroException dz){
+          System.out.println(dz.message());
+      }
 
    } //method main
 }  //class Main
