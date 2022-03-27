@@ -7,5 +7,5 @@ public class ExceptionDemo {
             throw new DivisionByZeroException(); //если делитель равен 0, выполнится создание объекта класса DivisionByZeroException
         return dividend/divisor;
     }
-    }
+}
 

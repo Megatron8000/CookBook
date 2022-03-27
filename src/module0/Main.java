@@ -99,7 +99,7 @@ public class Main {
 
       ExceptionDemo ed = new ExceptionDemo();
       try {
-          ed.divide(8, 0);
+          ed.divide(8, 3);
       } catch (DivisionByZeroException dz){
           System.out.println(dz.message());
       }
