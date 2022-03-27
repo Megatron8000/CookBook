@@ -94,6 +94,8 @@ public class Main {
 
       SomeClass cs = new SomeClass();
       cs.method();
+
+
    } //method main
 }  //class Main
 
