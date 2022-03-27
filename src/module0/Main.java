@@ -80,7 +80,7 @@ public class Main {
        System.out.println(au.toString());
 
        PolyVehicle pv = new PolyVehicle();
-       pv.foo();*/
+       pv.foo();
 
       Point p = new Point();
       Triangle t = new Triangle(12, 36);
@@ -93,7 +93,7 @@ public class Main {
       }
 
       SomeClass cs = new SomeClass();
-      cs.method();
+      cs.method();*/
 
 
    } //method main
