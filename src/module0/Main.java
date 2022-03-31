@@ -2,6 +2,7 @@ package module0;
 
 import module10.DivisionByZeroException;
 import module10.ExceptionDemo;
+import module8.Auto;
 import module9.*;
 
 import java.util.Scanner;
@@ -108,6 +109,10 @@ public class Main {
       } catch (DivisionByZeroException e) {
           e.printStackTrace();
       }
+
+
+      Auto a = new Auto(true);
+      a.move(2,5);
 
   } //method main
 }  //class Main
