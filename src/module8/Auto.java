@@ -2,7 +2,7 @@ package module8;
 
 import module4.Vehicle;
 
-public class Auto extends Vehicle {
+public class Auto extends Vehicle i {
     private boolean sunroof;
 
        public Auto(boolean sunroof){
