@@ -1,8 +1,9 @@
 package module8;
 
+import module11.Movable;
 import module4.Vehicle;
 
-public class Auto extends Vehicle i {
+public class Auto extends Vehicle implements Movable {
     private boolean sunroof;
 
        public Auto(boolean sunroof){
@@ -20,12 +21,15 @@ public class Auto extends Vehicle i {
                     "color = " + super.getColor() + "; " +
                     "wheels = " + super.getWheels() + "; " +
                     "sunroof = " + sunroof + ") ";
-
-
-
     }
 
     public void setSunroof(boolean sunroof) {
         this.sunroof = sunroof;
     }
+
+    @Override
+    public void move(int left, int right) {
+        System.out.println("Wroom wroom");
+    }
 }
+
