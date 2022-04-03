@@ -113,7 +113,6 @@ public class Main {
 
       Auto a = new Auto(true);
       a.move(2,5);
-
   } //method main
 }  //class Main
 
