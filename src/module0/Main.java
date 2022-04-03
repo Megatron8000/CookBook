@@ -119,9 +119,8 @@ public class Main {
       //Указатель на интерефейс
 
       Auto auto = new Auto(true);
-      Auto moto = new Auto(false);
 
-      m = auto;
+      m = auto; //переменная указатель указывает на объект типа Auto
       m.move(61,66);
 
   } //method main
