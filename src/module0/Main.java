@@ -2,6 +2,7 @@ package module0;
 
 import module10.DivisionByZeroException;
 import module10.ExceptionDemo;
+import module11.Movable;
 import module8.Auto;
 import module9.*;
 
@@ -113,6 +114,16 @@ public class Main {
 
       Auto a = new Auto(true);
       a.move(2,5);
+
+      Movable m;
+      //Указатель на интерефейс
+
+      Auto auto = new Auto(true);
+      Auto moto = new Auto(false);
+
+      m = auto;
+      m.move(61,66);
+
   } //method main
 }  //class Main
 
