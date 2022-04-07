@@ -2,6 +2,7 @@ package module0;
 
 import module10.DivisionByZeroException;
 import module10.ExceptionDemo;
+import module11.IExample;
 import module11.Movable;
 import module8.Auto;
 import module9.*;
@@ -122,6 +123,10 @@ public class Main {
 
       m = auto; //переменная указатель указывает на объект типа Auto
       m.move(61,66);
+
+      IExample ie = new IExample();
+      ie.methodA();
+      ie.methodB();
 
   } //method main
 }  //class Main
