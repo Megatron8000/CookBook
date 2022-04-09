@@ -128,7 +128,11 @@ public class Main {
       ie.methodA();
       ie.methodB();
 
+        String str = "God save ";
+        String str1 = str.concat("the queen"); //при работе с методами String создается новый объект, а не измениятся имеющийся
 
+      System.out.println(str1);
+      System.out.println(str);
 
   } //method main
 }  //class Main
