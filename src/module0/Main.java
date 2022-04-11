@@ -4,6 +4,7 @@ import module10.DivisionByZeroException;
 import module10.ExceptionDemo;
 import module11.IExample;
 import module11.Movable;
+import module12.Str;
 import module8.Auto;
 import module9.*;
 
@@ -134,7 +135,8 @@ public class Main {
       System.out.println(str1);
       System.out.println(str);
 
-
+      Str ss = new Str();
+      ss.
 
   } //method main
 }  //class Main
