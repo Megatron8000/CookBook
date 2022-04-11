@@ -136,7 +136,8 @@ public class Main {
       System.out.println(str);
 
       Str ss = new Str();
-      ss.
+      System.out.println(ss.foo());
+
 
   } //method main
 }  //class Main
