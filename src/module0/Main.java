@@ -150,7 +150,12 @@ public class Main {
       index = greeting.indexOf("w"); //определение индекса симфола в строке
       System.out.println(index);
 
-
+      //проверка наличия записи в начале/конце строки
+      String hello = "Hello from universe";
+      boolean  r1 = hello.startsWith("Hel");
+      boolean  r2 = hello.endsWith("erse");
+      System.out.println(r1);
+      System.out.println(r2);
 
 
   } //method main
