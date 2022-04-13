@@ -139,6 +139,13 @@ public class Main {
       System.out.println(ss.foo());
 
 
+    //извлечение части строки
+      int start = 6;
+      int end = 11;
+      String greeting = "Hello world!";
+      String substr = greeting.substring(start, end);
+      System.out.println(substr);
+
 
   } //method main
 }  //class Main
