@@ -161,6 +161,9 @@ public class Main {
       char ch = greeting.charAt(6);
       System.out.println(ch);
 
+      //замена символа в строке
+      String replaced = greeting.replace("o","u");
+      System.out.println(replaced);
 
   } //method main
 }  //class Main
