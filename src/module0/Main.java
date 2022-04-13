@@ -146,6 +146,12 @@ public class Main {
       String substr = greeting.substring(start, end);
       System.out.println(substr);
 
+      int index;
+      index = greeting.indexOf("w"); //определение индекса симфола в строке
+      System.out.println(index);
+
+
+
 
   } //method main
 }  //class Main
