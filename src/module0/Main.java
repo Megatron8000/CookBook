@@ -157,6 +157,10 @@ public class Main {
       System.out.println(r1);
       System.out.println(r2);
 
+      //извлечение символа из строки
+      char ch = greeting.charAt(6);
+      System.out.println(ch);
+
 
   } //method main
 }  //class Main
