@@ -187,7 +187,10 @@ public class Main {
       sss = " " + 'f'; // строка ->  символ
       sss = " " + 987L; // long
 
-      //преобразование простых типов к строке
+      //преобразование простых типов к строке с использованием ValueOf()
+      String strr = String.valueOf(true);
+      strr = String.valueOf('a');
+      strr = String.valueOf(987L);
 
   } //method main
 }  //class Main
