@@ -177,7 +177,17 @@ public class Main {
       String con = "Hello";
       con += " W";
       System.out.println(con);
+      //преобразование строки в числовой тип
+      double de = Double.parseDouble("4523.032");
+      System.out.println(de);
 
+      //преобразование простых типов к строке
+      String sss = null;
+      sss = " " + true; // boolean
+      sss = " " + 'f'; // строка ->  символ
+      sss = " " + 987L; // long
+
+      //преобразование простых типов к строке
 
   } //method main
 }  //class Main
