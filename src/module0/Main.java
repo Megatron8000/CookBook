@@ -174,8 +174,8 @@ public class Main {
       System.out.println(up);
 
       //слияние строк
-      String con = "Hello ";
-      con.concat("World");
+      String con = "Hello";
+      con += " W";
       System.out.println(con);
 
 
