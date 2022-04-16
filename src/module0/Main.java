@@ -165,6 +165,12 @@ public class Main {
       String replaced = greeting.replace("o","u");
       System.out.println(replaced);
 
+      //приведение строки к нижнему регистру
+      String low = greeting.toLowerCase();
+      System.out.println(low);
+
+      //приведение строки к верхнему регистру
+
   } //method main
 }  //class Main
 
