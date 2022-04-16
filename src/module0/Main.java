@@ -170,6 +170,8 @@ public class Main {
       System.out.println(low);
 
       //приведение строки к верхнему регистру
+      String up = greeting.toUpperCase();
+      System.out.println(up);
 
   } //method main
 }  //class Main
