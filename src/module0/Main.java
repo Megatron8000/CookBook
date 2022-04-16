@@ -173,6 +173,12 @@ public class Main {
       String up = greeting.toUpperCase();
       System.out.println(up);
 
+      //слияние строк
+      String con = "Hello ";
+      con.concat("World");
+      System.out.println(con);
+
+
   } //method main
 }  //class Main
 
