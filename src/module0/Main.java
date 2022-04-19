@@ -4,6 +4,7 @@ import module10.DivisionByZeroException;
 import module10.ExceptionDemo;
 import module11.IExample;
 import module11.Movable;
+import module12.IntString;
 import module12.Str;
 import module8.Auto;
 import module9.*;
@@ -192,7 +193,8 @@ public class Main {
       strr = String.valueOf('a');
       strr = String.valueOf(987L);
 
-
+      IntString is = new IntString();
+      is.foo();
 
   } //method main
 }  //class Main
