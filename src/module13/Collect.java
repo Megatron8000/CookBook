@@ -21,52 +21,52 @@ public class Collect {
         }
 
         @Override
-        public Iterator iterator() {
+        public Iterator iterator() { //создает итератор коллекции
             return null;
         }
 
         @Override
-        public Object[] toArray() {
+        public Object[] toArray() { //преобразует все элементы коллекции в массив
             return new Object[0];
         }
 
         @Override
-        public Object[] toArray(Object[] a) {
+        public Object[] toArray(Object[] a) { //преобразует все элементы коллекции в массив указанного типа
             return new Object[0];
         }
 
         @Override
-        public boolean add(Object o) {
+        public boolean add(Object o) {//добавляет новый элемент в коллекцию (если он там отсутствовал)
             return false;
         }
 
         @Override
-        public boolean remove(Object o) {
+        public boolean remove(Object o) { //удаляет элемент из коллекции
             return false;
         }
 
         @Override
-        public boolean containsAll(Collection c) {
+        public boolean containsAll(Collection c) { //возвращает true если коллекция включает в себя все элементы коллекции c
             return false;
         }
 
         @Override
-        public boolean addAll(Collection c) {
+        public boolean addAll(Collection c) { //добавит в коллекцию все элементы коллекции с
             return false;
         }
 
         @Override
-        public boolean removeAll(Collection c) {
+        public boolean removeAll(Collection c) { //удалит из коллекции все элементы коллекции с
             return false;
         }
 
         @Override
-        public boolean retainAll(Collection c) {
+        public boolean retainAll(Collection c) {  //удалит из коллекции все элементы кроме тех, что содержатся в коллекции с
             return false;
         }
 
         @Override
-        public void clear() {
+        public void clear() { //очистит коллекцию
 
         }
     };
