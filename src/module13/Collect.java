@@ -56,17 +56,17 @@ public class Collect {
         }
 
         @Override
-        public boolean removeAll(Collection c) { //удалит из коллекции все элементы коллекции с
+        public boolean removeAll(Collection c) {  //Удалит из коллекции все элементы коллекции с
             return false;
         }
 
         @Override
-        public boolean retainAll(Collection c) {  //удалит из коллекции все элементы кроме тех, что содержатся в коллекции с
+        public boolean retainAll(Collection c) { //удалит из текущей коллекции все элементы кроме тех, что содержит коллекция с
             return false;
         }
 
         @Override
-        public void clear() { //очистит коллекцию
+        public void clear() {//очистит коллекцию
 
         }
     };
