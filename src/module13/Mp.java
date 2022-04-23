@@ -32,37 +32,37 @@ public class Mp {
         }
 
         @Override
-        public Object put(Object key, Object value) {
+        public Object put(Object key, Object value) {  //добавляет новое значение и ключ, если такой ключ уже есть то заменяет значение
             return null;
         }
 
         @Override
-        public Object remove(Object key) {
+        public Object remove(Object key) {  //удалит значение соответствующее ключу
             return null;
         }
 
         @Override
-        public void putAll(Map m) {
+        public void putAll(Map m) { // добавит в коллекцию все ключи и значения из словаря m
 
         }
 
         @Override
-        public void clear() {
+        public void clear() {  //очистит коллекцию
 
         }
 
         @Override
-        public Set keySet() {
+        public Set keySet() { //преобразует ключи коллекции во множество
             return null;
         }
 
         @Override
-        public Collection values() {
+        public Collection values() { //преобразует значения в коллекцию
             return null;
         }
 
         @Override
-        public Set<Entry> entrySet() {
+        public Set<Entry> entrySet() {  //преобразует коллекцию во множество
             return null;
         }
     };
