@@ -7,27 +7,27 @@ import java.util.Set;
 public class Mp {
     Map map = new Map() {
         @Override
-        public int size() {
+        public int size() { //возвращает количество элементов коллекции
             return 0;
         }
 
         @Override
-        public boolean isEmpty() {
+        public boolean isEmpty() { //проверка является ли коллекция пустой
             return false;
         }
 
         @Override
-        public boolean containsKey(Object key) {
+        public boolean containsKey(Object key) {  //проверка содержит ли коллекция указанный ключ
             return false;
         }
 
         @Override
-        public boolean containsValue(Object value) {
+        public boolean containsValue(Object value) { //проверка содержит ли коллекция указанное значение
             return false;
         }
 
         @Override
-        public Object get(Object key) {
+        public Object get(Object key) { //возвращает соответствующий key объект
             return null;
         }
 
