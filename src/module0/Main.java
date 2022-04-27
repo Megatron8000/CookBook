@@ -6,6 +6,7 @@ import module11.IExample;
 import module11.Movable;
 import module12.IntString;
 import module12.Str;
+import module13.MapReference;
 import module8.Auto;
 import module9.*;
 
@@ -198,22 +199,8 @@ public class Main {
       IntString is = new IntString();
       is.foo();
 
-        //создание словаря
-      Map map = new HashMap();
-
-      //создание класса оболочки для типа double
-      Double refD = new Double(1.23);
-
-      //добавление объекта в коллекцию
-      map.put("key", refD);
-
-      //получение класса-оболочки из коллекции
-      refD = (Double)map.get("key");
-
-      //получение значения double из объекта оболочки коллекции
-      double dd = refD.doubleValue();
-
-      System.out.println(dd);
+      MapReference mr = new MapReference();
+      mr.foo();
 
 
   } //method main
