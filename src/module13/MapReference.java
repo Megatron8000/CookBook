@@ -2,7 +2,7 @@ package module13;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//добавление простого типа в коллекцию
 public class MapReference {
     public void foo(){
         //создание словаря
