@@ -207,6 +207,14 @@ public class Main {
       //добавление объекта в коллекцию
       map.put("key", refD);
 
+      //получение класса-оболочки из коллекции
+      refD = (Double)map.get("key");
+
+      //получение значения double из объекта оболочки коллекции
+      double dd = refD.doubleValue();
+
+      System.out.println(dd);
+
 
   } //method main
 }  //class Main
