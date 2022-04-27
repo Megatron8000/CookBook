@@ -9,6 +9,8 @@ import module12.Str;
 import module8.Auto;
 import module9.*;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
@@ -196,7 +198,14 @@ public class Main {
       IntString is = new IntString();
       is.foo();
 
+        //создание словаря
+      Map map = new HashMap();
 
+      //создание класса оболочки для типа double
+      Double refD = new Double(1.23);
+
+      //добавление объекта в коллекцию
+      map.put("key", refD);
 
 
   } //method main
