@@ -7,6 +7,7 @@ import module11.Movable;
 import module12.IntString;
 import module12.Str;
 import module13.MapReference;
+import module13.Spisok;
 import module8.Auto;
 import module9.*;
 
@@ -200,7 +201,8 @@ public class Main {
       MapReference mr = new MapReference();
       mr.foo();
 
-
+      Spisok sp = new Spisok();
+      sp.foo();
 
   } //method main
 }  //class Main
