@@ -208,6 +208,8 @@ public class Main {
 
       Object element = spisok.get(spisok.size() - 1); //получение последнего элемента в списке
       System.out.println(element);
+      element = spisok.get(0); //получение элемента по указанному индексу
+      System.out.println(element);
 
   } //method main
 }  //class Main
