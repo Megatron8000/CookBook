@@ -206,8 +206,8 @@ public class Main {
       spisok.add("ss"); //добавление элемента в список
       spisok.add(0, "dd"); //добавление элемента в конкретное место в списке
 
-      spisok.get(spisok.size() - 1); //получение последнего элемента в списке
-
+      Object element = spisok.get(spisok.size() - 1); //получение последнего элемента в списке
+      System.out.println(element);
 
   } //method main
 }  //class Main
