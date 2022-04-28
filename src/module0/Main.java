@@ -10,10 +10,7 @@ import module13.MapReference;
 import module8.Auto;
 import module9.*;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
   public static void main(String[] args) {
@@ -203,7 +200,13 @@ public class Main {
       MapReference mr = new MapReference();
       mr.foo();
 
+      List spisok = new LinkedList(); //создание связанного списка
+      spisok = new ArrayList(); //создание списка массива
 
+      spisok.add("ss"); //добавление элемента в список
+      spisok.add(0, "dd"); //добавление элемента в конкретное место в списке
+
+      spisok.get(spisok.size() - 1); //получение последнего элемента в списке
 
 
   } //method main
