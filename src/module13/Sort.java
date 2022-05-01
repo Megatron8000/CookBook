@@ -12,6 +12,8 @@ public class Sort {
 
         //простая сортировка
         Collections.sort(lst);
+        System.out.println(lst);
+
 
     }
 }

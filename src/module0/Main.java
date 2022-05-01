@@ -7,6 +7,7 @@ import module11.Movable;
 import module12.IntString;
 import module12.Str;
 import module13.MapReference;
+import module13.Sort;
 import module13.Spisok;
 import module8.Auto;
 import module9.*;
@@ -205,7 +206,8 @@ public class Main {
       Spisok sp = new Spisok();
       sp.foo();
 
-
+      Sort sort = new Sort();
+      sort.foo();
 
   } //method main
 }  //class Main
