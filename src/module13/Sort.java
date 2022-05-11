@@ -17,7 +17,5 @@ public class Sort {
         //сортрировка в обратном порядке
         Collections.sort(lst, Collections.reverseOrder());
         System.out.println(lst);
-
-
     }
 }
