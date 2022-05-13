@@ -9,6 +9,7 @@ import module12.Str;
 import module13.MapReference;
 import module13.Sort;
 import module13.Spisok;
+import module14.EndlessWhile;
 import module8.Auto;
 import module9.*;
 
@@ -208,6 +209,9 @@ public class Main {
 
       Sort sort = new Sort();
       sort.foo();
+
+      EndlessWhile ew = new EndlessWhile();
+      ew.foo(); //запустит бесконечный цикл
 
   } //method main
 }  //class Main
