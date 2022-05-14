@@ -10,6 +10,7 @@ import module13.MapReference;
 import module13.Sort;
 import module13.Spisok;
 import module14.EndlessWhile;
+import module14.SecureDivision;
 import module8.Auto;
 import module9.*;
 
@@ -210,8 +211,11 @@ public class Main {
       Sort sort = new Sort();
       sort.foo();
 
-      EndlessWhile ew = new EndlessWhile();
-      ew.foo(); //запустит бесконечный цикл
+      /*EndlessWhile ew = new EndlessWhile();
+      ew.foo(); //запустит бесконечный цикл*/
+
+      SecureDivision sd = new SecureDivision();
+      sd.foo();
 
   } //method main
 }  //class Main
