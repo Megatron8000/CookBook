@@ -11,6 +11,7 @@ import module13.Sort;
 import module13.Spisok;
 import module14.EndlessWhile;
 import module14.SecureDivision;
+import module14.UpCase;
 import module8.Auto;
 import module9.*;
 
@@ -216,6 +217,9 @@ public class Main {
 
       SecureDivision sd = new SecureDivision();
       sd.foo();
+
+      UpCase uc = new UpCase();
+      uc.foo();
 
   } //method main
 }  //class Main
