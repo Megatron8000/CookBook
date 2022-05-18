@@ -10,6 +10,7 @@ import module13.MapReference;
 import module13.Sort;
 import module13.Spisok;
 import module14.EndlessWhile;
+import module14.LowCase;
 import module14.SecureDivision;
 import module14.UpCase;
 import module8.Auto;
@@ -220,6 +221,9 @@ public class Main {
 
       UpCase uc = new UpCase();
       uc.foo();
+
+      LowCase lc = new LowCase();
+      lc.foo();
 
   } //method main
 }  //class Main
