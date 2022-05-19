@@ -6,8 +6,7 @@ import java.util.Base64;
 
 
 public class Base64Demo {
-    public void foo(String[] args){
-//программа должна быть запущена как минимум с одним параметром - строкой подлежащей шифрованию
+    public void foo(){
 
         byte[] encodedBytes = Base64.getEncoder().encode("Test".getBytes());
         System.out.println("encodedBytes " + new String(encodedBytes));
