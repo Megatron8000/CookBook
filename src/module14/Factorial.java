@@ -11,6 +11,10 @@ public class Factorial {
         return result;
     }
 
-    //метод
+    //метод вычисления факториала при помощи рекурсии
+    long computeR(int n){
+        if (n == 1) return n;
+        return computeR(n - 1) * n;
+    }
 
 }
