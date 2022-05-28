@@ -225,6 +225,9 @@ public class Main {
       Base64Demo b64 = new Base64Demo();
       b64.foo();
 
+      FactorialDemo fd = new FactorialDemo();
+      fd.foo();
+
   } //method main
 }  //class Main
 
