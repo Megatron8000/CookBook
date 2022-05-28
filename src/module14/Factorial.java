@@ -3,7 +3,7 @@ package module14;
 public class Factorial {
 
     //метод вычисляющий факториал при помощи цикла
-    long compoteI(int n){
+    long computeI(int n){
         long result = 1;
 
         for (int i = 1; i <= n; i++)
@@ -12,9 +12,9 @@ public class Factorial {
     }
 
     //метод вычисления факториала при помощи рекурсии
-    long computeR(int n){
+    long computeJ(int n){
         if (n == 1) return n;
-        return computeR(n - 1) * n;
+        return computeJ(n - 1) * n;
     }
 
 }
