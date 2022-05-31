@@ -228,6 +228,9 @@ public class Main {
       FactorialDemo fd = new FactorialDemo();
       fd.foo();
 
+      BubbleSortDemo bsd = new BubbleSortDemo();
+      bsd.foo();
+
   } //method main
 }  //class Main
 
