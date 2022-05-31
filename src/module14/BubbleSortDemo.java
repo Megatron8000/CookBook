@@ -9,5 +9,13 @@ public class BubbleSortDemo {
         System.out.print("Исходный порядок массива:");
         for (int i = 0; i < nums.length; i++);
         System.out.print(nums[i]);
+
+        System.out.println();
+
+        BubbleSort.sort(nums);
+
+        System.out.print("Новый порядок массива:");
+        for (int i = 0; i < nums.length; i++);
+        System.out.print(nums[i] + " ");
     }
 }
