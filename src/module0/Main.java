@@ -231,6 +231,9 @@ public class Main {
       BubbleSortDemo bsd = new BubbleSortDemo();
       bsd.foo();
 
+      QuickSortDemo qsd = new QuickSortDemo();
+      qsd.foo();
+
   } //method main
 }  //class Main
 
