@@ -6,7 +6,7 @@ public class QuickSortDemo {
 
         System.out.println("Исходный порядок массива:");
         for (int i = 0; i < s.length; i++) {
-            System.out.println(s[i]);
+            System.out.print(s[i]);
         }
 
         System.out.println();
@@ -14,7 +14,7 @@ public class QuickSortDemo {
 
         System.out.println("Отстортированный массив:");
         for (int i = 0; i < s.length; i++){
-            System.out.println(s[i]);
+            System.out.print(s[i]);
         }
     }
 }
