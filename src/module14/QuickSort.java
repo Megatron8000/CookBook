@@ -1,8 +1,8 @@
 package module14;
 
 public class QuickSort {
-    static void sort(char items[]){
-     quicksort(items, 0, items.length - 1);
+    static void sort(char items[]) {
+        quicksort(items, 0, items.length - 1);
     }
 
     private static void quicksort(char[] items, int left, int right) {
@@ -13,8 +13,26 @@ public class QuickSort {
         bottom = right; // последняя позиция в последовательности
 
         //выбор компарадна - символа из середины массива
-        comparand = items[((left+right))/2];
+        comparand = items[((left + right)) / 2];
 
+        //разделение последовательности на две части
+        do {
+            while ((items[top] < comparand) && (top < right)) top++;
+            while ((comparand < items[bottom]) && (bottom > left)) bottom--;
 
+            if (top <= bottom) {
+                value = items[top];
+                items[top] = items[bottom];
+                items[bottom] = value;
+                top++;
+                bottom--;
+            }
+        } while (top <= bottom);
+
+        if (((right+1) - left) == items.length){
+
+        }
     }
+
 }
+
