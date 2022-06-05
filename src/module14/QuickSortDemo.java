@@ -12,6 +12,9 @@ public class QuickSortDemo {
         System.out.println();
         QuickSort.sort(s);
 
-
+        System.out.println("Отстортированный массив:");
+        for (int i = 0; i < s.length; i++){
+            System.out.println(s[i]);
+        }
     }
 }
