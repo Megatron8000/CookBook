@@ -30,9 +30,10 @@ public class QuickSort {
         } while (top <= bottom);
 
         if (((right+1) - left) == items.length){
-
+            for (int i = 0; i < items.length; i++)
+                System.out.print(items[i]);
+                System.out.println();
         }
     }
-
 }
 
