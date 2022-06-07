@@ -234,11 +234,9 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    Scanner sc = new Scanner(System.in);
-    int x = sc.nextInt();
-    int y = sc.nextInt();
-    int myVar = y + x;
-    System.out.print(myVar);
+    int x = 29; int y = 6;
+    int result = x / y;
+    System.out.println(result);
 
   } //method main
 }  //class Main
