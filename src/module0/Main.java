@@ -236,11 +236,9 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
     double x = sc.nextDouble();
-    double y = sc.nextDouble();
-    double S = y * x;
-    double P = 2 * (y + x);
-    System.out.println(S);
-    System.out.print(P);
+    double y = 5 * (x * x) + 2 * x + 11;
+    System.out.println(y);
+
 
   } //method main
 }  //class Main
