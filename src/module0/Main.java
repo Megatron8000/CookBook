@@ -235,8 +235,8 @@ public class Main {
       qsd.foo();*/
 
     Scanner sc = new Scanner(System.in);
-    int x = sc.nextInt();
-    int y = sc.nextInt();
+    double x = sc.nextDouble();
+    double y = sc.nextDouble();
     double S = y * x;
     double P = 2 * (y + x);
     System.out.println(S);
