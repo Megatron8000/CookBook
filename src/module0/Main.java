@@ -234,7 +234,9 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-      
+    int x = 2; int y = 4;
+    int myVar = y + x;
+    System.out.print(myVar);
 
   } //method main
 }  //class Main
