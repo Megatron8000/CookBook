@@ -107,7 +107,7 @@ public class Main {
       SomeClass cs = new SomeClass();
       cs.method();*/
 
-      ExceptionDemo ed = new ExceptionDemo();
+     /* ExceptionDemo ed = new ExceptionDemo();
       try {
           ed.divide(8, 0);
       } catch (DivisionByZeroException dz){
@@ -213,7 +213,7 @@ public class Main {
       /*EndlessWhile ew = new EndlessWhile();
       ew.foo(); //запустит бесконечный цикл*/
 
-      SecureDivision sd = new SecureDivision();
+     /* SecureDivision sd = new SecureDivision();
       sd.foo();
 
       UpCase uc = new UpCase();
@@ -232,7 +232,9 @@ public class Main {
       bsd.foo();
 
       QuickSortDemo qsd = new QuickSortDemo();
-      qsd.foo();
+      qsd.foo();*/
+
+      
 
   } //method main
 }  //class Main
