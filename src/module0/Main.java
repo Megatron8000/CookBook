@@ -234,9 +234,13 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    int x = 29; int y = 6;
-    int result = x / y;
-    System.out.println(result);
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();
+    int y = sc.nextInt();
+    double S = y * x;
+    double P = 2 * (y + x);
+    System.out.println(S);
+    System.out.print(P);
 
   } //method main
 }  //class Main
