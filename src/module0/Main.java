@@ -241,12 +241,6 @@ public class Main {
 
     double average = (a + b + c) / 3;
     System.out.println(average);
-
-
-
-
-
-
   } //method main
 }  //class Main
 
