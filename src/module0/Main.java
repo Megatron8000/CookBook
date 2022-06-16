@@ -234,10 +234,12 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    Scanner sc = new Scanner(System.in);
-    int i = sc.nextInt();
-    int x = Math.abs(i%10);
-    System.out.println(x);
+    int budget = 16;
+    int salary = 5;
+    int workers = budget / salary;
+    int money = 16 % 5;
+    System.out.print(workers + " ");
+    System.out.print(money);
 
   } //method main
 }  //class Main
