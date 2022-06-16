@@ -235,10 +235,9 @@ public class Main {
       qsd.foo();*/
 
     Scanner sc = new Scanner(System.in);
-    int x = 41;
-    int y = 7;
-    int myVar = x % y;
-    System.out.println(myVar);
+    int i = sc.nextInt();
+    int x = Math.abs(i%10);
+    System.out.println(x);
 
   } //method main
 }  //class Main
