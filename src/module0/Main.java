@@ -235,7 +235,10 @@ public class Main {
       qsd.foo();*/
 
     Scanner sc = new Scanner(System.in);
-
+    int x = 41;
+    int y = 7;
+    int myVar = x % y;
+    System.out.println(myVar);
 
   } //method main
 }  //class Main
