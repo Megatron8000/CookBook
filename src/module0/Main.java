@@ -234,12 +234,11 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    int budget = 16;
-    int salary = 5;
-    int workers = budget / salary;
-    int money = budget % salary;
-    System.out.print(workers + " ");
-    System.out.print(money);
+    Scanner sc = new Scanner(System.in);
+    int X = sc.nextInt();
+    int Y = sc.nextInt();
+    System.out.println(X/Y + " " + X%Y);
+
 
   } //method main
 }  //class Main
