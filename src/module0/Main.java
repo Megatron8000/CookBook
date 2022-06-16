@@ -235,12 +235,8 @@ public class Main {
       qsd.foo();*/
 
     Scanner sc = new Scanner(System.in);
-    double a = sc.nextDouble();
-    double b = sc.nextDouble();
-    double c = sc.nextDouble();
 
-    double average = (a + b + c) / 3;
-    System.out.println(average);
+
   } //method main
 }  //class Main
 
