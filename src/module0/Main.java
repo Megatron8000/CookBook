@@ -234,10 +234,12 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    int a = 5;
-    boolean b;
-    int c = 4;
-    b = c++ == 4 && a++ < 6;
+    int x = 1, y = 5, z = 0;
+    --y;
+    x = 4 + y++;
+    z += x--;
+    x = y + z;
+    System.out.print(++x);
 
 
 
