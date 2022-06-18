@@ -234,7 +234,9 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    Scanner sc = new Scanner(System.in);
+    int x = 10;
+    x++;
+    System.out.println(x);
 
 
 
