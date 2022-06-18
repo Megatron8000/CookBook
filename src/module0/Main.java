@@ -234,9 +234,8 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    int x = 10;
-    x++;
-    System.out.println(x);
+    int x = 41;
+    System.out.print(x++);
 
 
 
