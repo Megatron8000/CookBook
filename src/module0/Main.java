@@ -234,12 +234,8 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    int x = 1, y = 5, z = 0;
-    --y;
-    x = 4 + y++;
-    z += x--;
-    x = y + z;
-    System.out.print(++x);
+    int x = 10;
+    System.out.println((++x) + "\n" + (++x) + "\n" + (++x));
 
 
 
