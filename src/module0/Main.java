@@ -235,9 +235,7 @@ public class Main {
       qsd.foo();*/
 
     Scanner sc = new Scanner(System.in);
-    int X = sc.nextInt();
-    int Y = sc.nextInt();
-    System.out.println(X/Y + " " + X%Y);
+
 
 
   } //method main
