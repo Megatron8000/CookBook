@@ -235,8 +235,13 @@ public class Main {
       qsd.foo();*/
 
     Scanner s = new Scanner(System.in);
-    int n = s.nextInt();
-    System.out.println(--n + " " + ++n + " " + ++n);
+    int y = s.nextInt();
+    int x = s.nextInt();
+
+    int z = ((x + 1) / (y - 1)) + ((y + 1) / (x - 1));
+    System.out.println(z);
+
+
 
 
 
