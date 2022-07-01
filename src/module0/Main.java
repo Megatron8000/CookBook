@@ -234,7 +234,8 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    String s = "abracadabra";
+    Scanner sc = new Scanner(System.in);
+    String s = sc.nextLine();
     System.out.println(s.length());
 
   } //method main
