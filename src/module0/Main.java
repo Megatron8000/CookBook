@@ -234,8 +234,8 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    String myVar = "Hello, World!";
-    System.out.println(myVar);
+    String s = "abracadabra";
+    System.out.println(s.length());
 
   } //method main
 }  //class Main
