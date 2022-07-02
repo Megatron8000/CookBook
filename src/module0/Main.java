@@ -234,10 +234,12 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
+
     Scanner sc = new Scanner(System.in);
     String s = sc.nextLine();
+    int x = s.length();
     char l0 = s.charAt(0);
-    char l1 = s.charAt(10);
+    char l1 = s.charAt(x - 1);
     System.out.println(l0 + " " + l1);
 
   } //method main
