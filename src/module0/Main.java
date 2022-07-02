@@ -236,7 +236,9 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
     String s = sc.nextLine();
-    System.out.println(s.length());
+    char l0 = s.charAt(0);
+    char l1 = s.charAt(10);
+    System.out.println(l0 + " " + l1);
 
   } //method main
 }  //class Main
