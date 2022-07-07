@@ -238,8 +238,10 @@ public class Main {
     Scanner sc = new Scanner(System.in);
     String s0 = sc.nextLine();
     String s1 = sc.nextLine();
-    boolean b1 = s0.equals(s1);
-    System.out.println(b1);
+    String s2 = s0 + " " + s1;
+    System.out.println(s2);
+    System.out.println(s2.length());
+
 
 
 
