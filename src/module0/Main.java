@@ -241,6 +241,11 @@ public class Main {
     boolean b1 = s0.contains(s1);
     System.out.println(b1);
 
+    String s2 = sc.nextLine();
+    String s3 = sc.nextLine();
+    boolean b2 = s2.contains(s3);
+    System.out.println(b2);
+
 
   } //method main
 }  //class Main
