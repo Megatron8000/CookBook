@@ -238,7 +238,7 @@ public class Main {
     Scanner sc = new Scanner(System.in);
     String s0 = sc.nextLine();
     String s1 = sc.nextLine();
-    boolean b1 = s0.equals(s1);
+    boolean b1 = s0.contains(s1);
     System.out.println(b1);
 
 
