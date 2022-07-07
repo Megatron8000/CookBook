@@ -236,11 +236,11 @@ public class Main {
 
 
     Scanner sc = new Scanner(System.in);
-    String s = sc.nextLine();
-    int x = s.length();
-    char l0 = s.charAt(0);
-    char l1 = s.charAt(x - 1);
-    System.out.println(l0 + " " + l1);
+    String s0 = sc.nextLine();
+    String s1 = sc.nextLine();
+    boolean b1 = s0.equals(s1);
+    System.out.println(b1);
+
 
   } //method main
 }  //class Main
