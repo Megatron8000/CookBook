@@ -236,15 +236,10 @@ public class Main {
 
 
     Scanner sc = new Scanner(System.in);
-    String s0 = sc.nextLine();
-    String s1 = sc.nextLine();
-    boolean b1 = s0.contains(s1);
-    System.out.println(b1);
+    String s = sc.nextLine();
 
-    String s2 = sc.nextLine();
-    String s3 = sc.nextLine();
-    boolean b2 = s2.contains(s3);
-    System.out.println(b2);
+
+
 
 
   } //method main
