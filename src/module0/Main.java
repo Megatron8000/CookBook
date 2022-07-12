@@ -242,6 +242,7 @@ public class Main {
 
     String s0 = Integer.toString(i0);
     String s1 = Integer.toString(i1);
+    System.out.println(s0+s1);
 
 
 
