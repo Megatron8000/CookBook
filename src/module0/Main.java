@@ -240,7 +240,8 @@ public class Main {
    int i1 = sc.nextInt();
     System.out.println(i0+i1);
 
-
+    String s0 = Integer.toString(i0);
+    String s1 = Integer.toString(i1);
 
 
 
