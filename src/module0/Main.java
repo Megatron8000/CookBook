@@ -234,10 +234,7 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    Scanner sc = new Scanner(System.in);
-    int day = 86400;
-    int count = sc.nextInt();
-    System.out.println(day * count);
+
 
   } //method main
 }  //class Main
