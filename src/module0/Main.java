@@ -235,8 +235,9 @@ public class Main {
       qsd.foo();*/
 
     Scanner sc = new Scanner(System.in);
-    String s0 = sc.nextLine();
-    System.out.println(s0.charAt(0) < s0.charAt(s0.indexOf(' ') + 1));
+    int day = 86400;
+    int count = sc.nextInt();
+    System.out.println(day * count);
 
   } //method main
 }  //class Main
