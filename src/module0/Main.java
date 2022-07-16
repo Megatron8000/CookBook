@@ -236,7 +236,7 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
     String s0 = sc.nextLine();
-    System.out.println(s0.charAt(0) < s0.indexOf(' ') + 1);
+    System.out.println(s0.charAt(0) < s0.charAt(s0.indexOf(' ') + 1));
 
   } //method main
 }  //class Main
