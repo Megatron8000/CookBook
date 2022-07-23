@@ -234,8 +234,10 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-
-
-  } //method main
-}  //class Main
+    int x = 5;
+    if (x == 5) {
+      System.out.println("YEP");
+    } //method main
+  }
+}//class Main
 
