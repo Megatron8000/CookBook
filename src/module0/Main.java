@@ -234,10 +234,13 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    int x = 5;
-    if (x == 5) {
-      System.out.println("YEP");
+   Scanner scanner = new Scanner(System.in);
+    int a = scanner.nextInt(), b = scanner.nextInt();
+    if (a  > b){
+      System.out.println("Махатма");
+    } else {
+      System.out.println("Джавахарлал");
+    }
     } //method main
-  }
-}//class Main
+  }//class Main
 
