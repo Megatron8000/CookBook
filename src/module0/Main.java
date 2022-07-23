@@ -235,8 +235,9 @@ public class Main {
       qsd.foo();*/
 
    Scanner scanner = new Scanner(System.in);
-    int a = scanner.nextInt(), b = scanner.nextInt();
-    if (a  > b){
+    String a = scanner.nextLine();
+    String b = scanner.nextLine();
+    if (a.length()  > b.length()){
       System.out.println("Махатма");
     } else {
       System.out.println("Джавахарлал");
