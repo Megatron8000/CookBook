@@ -235,7 +235,10 @@ public class Main {
       qsd.foo();*/
 
    Scanner scanner = new Scanner(System.in);
-    int a = 5, b = 6, c = 12;
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    int c = scanner.nextInt();
+
     if (a > b & a > c){
         System.out.println(a);
     } else if(b > a & b > c){
