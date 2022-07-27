@@ -235,12 +235,13 @@ public class Main {
       qsd.foo();*/
 
    Scanner scanner = new Scanner(System.in);
-    String a = scanner.nextLine();
-    String b = scanner.nextLine();
-    if (a.equals(b)){
-      System.out.println("Access is granted");
+    int a = 5, b = 6, c = 12;
+    if (a > b & a > c){
+        System.out.println(a);
+    } else if(b > a & b > c){
+        System.out.println(b);
     } else {
-      System.out.println("Access is denied");
+        System.out.println(c);
     }
     } //method main
   }//class Main
