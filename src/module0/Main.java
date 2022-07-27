@@ -237,10 +237,10 @@ public class Main {
    Scanner scanner = new Scanner(System.in);
     String a = scanner.nextLine();
     String b = scanner.nextLine();
-    if (a.length()  > b.length()){
-      System.out.println("Махатма");
+    if (a.equals(b)){
+      System.out.println("Access is granted");
     } else {
-      System.out.println("Джавахарлал");
+      System.out.println("Access is denied");
     }
     } //method main
   }//class Main
