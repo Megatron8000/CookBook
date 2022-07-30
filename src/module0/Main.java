@@ -234,6 +234,8 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
+      int x = 15;
+      System.out.println((x % 2 == 0) ? "Число чётное" : "Число нечётное");
 
     } //method main
   }//class Main
