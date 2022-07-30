@@ -234,8 +234,12 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-      int x = 15;
-      System.out.println((x % 2 == 0) ? "Число чётное" : "Число нечётное");
+
+
+        Scanner scanner = new Scanner(System.in);
+        double a = scanner.nextDouble();
+        double b = scanner.nextDouble();
+      System.out.println((a > b) ? "Холифилд - чемпион!" : "Бой продолжается!");
 
     } //method main
   }//class Main
