@@ -236,7 +236,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        System.out.println((a % 7 != 0) && (!(a % 5 == 0)) ? "NO" : "YES");
+        System.out.println((a % 7 == 0 && a % 5 != 0)  ? "YES" : "NO");
 
     } //method main
   }//class Main
