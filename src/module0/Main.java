@@ -237,9 +237,8 @@ public class Main {
 
 
         Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextDouble();
-        double b = scanner.nextDouble();
-      System.out.println((a >= b) ? "Холифилд - чемпион!" : "Бой продолжается!");
+        int a = scanner.nextInt();
+        System.out.println((a > 2 && a < 6) ? "YES" : "NO");
 
     } //method main
   }//class Main
