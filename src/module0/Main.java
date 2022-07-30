@@ -234,11 +234,9 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-
-
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        System.out.println((a > 2 && a < 6) ? "YES" : "NO");
+        System.out.println((a % 7 != 0) && (!(a % 5 == 0)) ? "NO" : "YES");
 
     } //method main
   }//class Main
