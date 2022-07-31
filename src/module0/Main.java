@@ -235,7 +235,7 @@ public class Main {
       qsd.foo();*/
 
     String s = "glass table";
-    String val = "val";
+    String val = "3";
     boolean b = !s.contains(val) || !val.equals("tab");
     System.out.println(b);
 
