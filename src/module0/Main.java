@@ -233,15 +233,14 @@ public class Main {
 
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
-    int a = 11;
-    int b = 12;
-    int c = 40;
-    if (a > 100 || b > 3) {
-      System.out.println(a);
-    } else {
-      System.out.println(c);
-    }
+    boolean a = true;
+    boolean b = false;
+    int c = 30;
+    int q = 5;
+    boolean r = (a || b && c >= 25) || (c < 20 * q) && !(q == 5);
+    System.out.println(r);
 
-    } //method main
-  }//class Main
+  }//method main
+    }   //class Main
+
 
