@@ -234,7 +234,11 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-
+    int age = 23;
+    int tasks = 4000;
+    if (age > 21 & tasks > 500) {
+      System.out.print("Добро пожаловать!");
+    }
 
     } //method main
   }//class Main
