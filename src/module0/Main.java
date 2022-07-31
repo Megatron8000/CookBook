@@ -233,11 +233,13 @@ public class Main {
 
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
-
-    int age = 23;
-    int tasks = 4000;
-    if (age > 21 && tasks > 500) {
-      System.out.print("Добро пожаловать!");
+    int a = 11;
+    int b = 12;
+    int c = 40;
+    if (a > 100 || b > 3) {
+      System.out.println(a);
+    } else {
+      System.out.println(c);
     }
 
     } //method main
