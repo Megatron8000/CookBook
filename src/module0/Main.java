@@ -234,10 +234,14 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-    String s = "glass table";
-    String val = "3";
-    boolean b = !s.contains(val) || !val.equals("tab");
-    System.out.println(b);
+   Scanner scanner = new Scanner(System.in);
+   String s0 = scanner.nextLine();
+   String s1 = scanner.nextLine();
+   if(s0.contains(s1) || s0.length() > 20){
+     System.out.println("YES");
+   } else {
+     System.out.println("NO");
+   }
 
   }//method main
     }   //class Main
