@@ -235,8 +235,7 @@ public class Main {
       qsd.foo();*/
 
    Scanner scanner = new Scanner(System.in);
-   String s0 = scanner.nextLine();
-   String s1 = scanner.nextLine();
+
 
 
   }//method main
