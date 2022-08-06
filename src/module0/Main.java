@@ -235,7 +235,13 @@ public class Main {
       qsd.foo();*/
 
    Scanner scanner = new Scanner(System.in);
-
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    if((a+b)%2 == 0 ){
+        System.out.println(true);
+    } else {
+        System.out.println(false);
+    }
 
 
   }//method main
