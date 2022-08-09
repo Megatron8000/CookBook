@@ -234,15 +234,7 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-   Scanner scanner = new Scanner(System.in);
-    int a = scanner.nextInt();
-    int b = scanner.nextInt();
-    int c = scanner.nextInt();
-    if((a+b+c)%2 != 0 && (a*b*c)%2 == 0){
-        System.out.println(true);
-    } else {
-        System.out.println(false);
-    }
+
 
 
   }//method main
