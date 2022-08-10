@@ -234,15 +234,17 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-int x = 10;
-switch (x = 10){
-  case 10: {
-    System.out.println("We're the champions!");
-  } break;
-  default: {
-    System.out.println("We're lost ((");
-  }
-}
+    int a = 11;
+    int b = 12;
+    int c = 42;
+
+    switch (a) {
+      case 40:
+        System.out.println(b);
+        break;
+      default:
+        System.out.println(c);
+    }
 
 
 
