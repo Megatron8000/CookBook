@@ -233,13 +233,15 @@ public class Main {
 
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
-
-
-      Scanner s = new Scanner(System.in);
-      int a = s.nextInt();
-      int b = s.nextInt();
-      int c = s.nextInt();
-      System.out.println(a + b + c - Math.max(a, Math.max(b, c)) - Math.min(a, Math.min(b, c)));
+int x = 10;
+switch (x = 10){
+  case 10: {
+    System.out.println("We're the champions!");
+  } break;
+  default: {
+    System.out.println("We're lost ((");
+  }
+}
 
 
 
