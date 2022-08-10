@@ -235,6 +235,17 @@ public class Main {
       qsd.foo();*/
 
 
+    int age = 25;
+    if (age > 0) {
+      if (age >= 18) {
+        System.out.println("Можно сдавать на права");
+      } else {
+        System.out.println("Ещё рано сдавать на права");
+      }
+    } else {
+      System.out.println("Error");
+    }
+
   }//method main
     }   //class Main
 
