@@ -235,6 +235,13 @@ public class Main {
       qsd.foo();*/
 
 
+      int x = 25;
+      if (x > 15) {
+        if (x <= 25) {
+          System.out.println("Ура, заработало!!!");
+        }
+      }
+
 
 
   }//method main
