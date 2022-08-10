@@ -235,12 +235,11 @@ public class Main {
       qsd.foo();*/
 
 
-      int x = 25;
-      if (x > 15) {
-        if (x <= 25) {
-          System.out.println("Ура, заработало!!!");
-        }
-      }
+      Scanner s = new Scanner(System.in);
+      int a = s.nextInt();
+      int b = s.nextInt();
+      int c = s.nextInt();
+      System.out.println(a + b + c - Math.max(a, Math.max(b, c)) - Math.min(a, Math.min(b, c)));
 
 
 
