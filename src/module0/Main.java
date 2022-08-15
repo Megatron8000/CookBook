@@ -234,25 +234,6 @@ public class Main {
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
 
-   Scanner s = new Scanner(System.in);
-   String str = s.nextLine();
-
-    switch (str) {
-      case "System.out.println()":
-        System.out.println("Это команда вывода на печать");
-        break;
-
-      case "if":
-        System.out.println("Это условный оператор");
-        break;
-
-      case "else":
-        System.out.println("Это альтернативная конструкция условного оператора");
-        break;
-
-      default:
-        System.out.println("Раздел в разработке");
-    }
 
 
 
