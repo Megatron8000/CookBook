@@ -15,9 +15,6 @@ public class IfStatement {
             System.out.println("С отрицательное или равно нулю");
         } else System.out.println("С положительное или равно нулю");
 
-        d = b - a;
-        if (d > 0){
-            System.out.println("D больше нуля");
-        } else System.out.println("D меньше нуля");
+
     } //method foo
 } //class IfStatement
