@@ -5,6 +5,6 @@ public class Ten {
   public int x;
     // объявление конструктора
     public Ten(){
-        x = 10;
+        x = 1;
     }
 }
