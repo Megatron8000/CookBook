@@ -21,6 +21,7 @@ public class Main {
   public static void main(String[] args) {
 
     JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
+
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
 
         Vehicle cabriolet = new Vehicle(250, "black", 4);
