@@ -10,6 +10,7 @@ import module13.MapReference;
 import module13.Sort;
 import module13.Spisok;
 import module14.*;
+import module4.Vehicle;
 import module8.Auto;
 import module9.*;
 
@@ -21,6 +22,10 @@ public class Main {
   public static void main(String[] args) {
 
     JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
+
+    Vehicle truck = new Vehicle(150,"green", 18);
+    System.out.println(truck.getMaxspeed());
+
 
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
 
