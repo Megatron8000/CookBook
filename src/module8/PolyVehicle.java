@@ -3,7 +3,7 @@ package module8;
 import module4.Vehicle;
 
 public class PolyVehicle {
-    Auto auto = new Auto(true); // экземпляр подкласса
+   Auto auto = new Auto(150, "rose", 6, false); // экземпляр подкласса
     Vehicle vehicle = new Vehicle(); // экземпляр класса
 
 
