@@ -26,9 +26,7 @@ public class Main {
     is.foo();
 
 
-    Vehicle car = new Vehicle();
-    System.out.println(car.getColor());
-    System.out.println(car.setWheels(6));
+
 
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
 
