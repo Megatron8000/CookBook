@@ -27,7 +27,7 @@ public class Main {
 
     Auto car = new Auto(250, "black", 4, true);
     System.out.println(car.getColor());
-    car.setSunroof(true);
+
 
 
 
