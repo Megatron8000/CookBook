@@ -21,8 +21,12 @@ import java.util.*;
 public class Main {
   public static void main(String[] args) {
 
-    System.out.println("Hello World!");
-    System.exit(-1);
+
+
+
+
+
+
 
 
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
@@ -240,9 +244,6 @@ public class Main {
 
       QuickSortDemo qsd = new QuickSortDemo();
       qsd.foo();*/
-
-
-
 
   }//method main
     }   //class Main
