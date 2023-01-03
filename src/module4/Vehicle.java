@@ -56,7 +56,7 @@ public class Vehicle {
     }
 
     public int setWheels(int wheels) {
-        if ((wheels > 2) || (wheels < 18)) {
+        if ((wheels < 2) || (wheels > 18)) {
             System.out.println("Invalid wheels value");
         }
         this.wheels = wheels;
