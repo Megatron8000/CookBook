@@ -47,7 +47,7 @@ public class Vehicle {
         return color;
     }
 
-    public void setColor(String color) {
+    public void setColor() {
         this.color = color;
     }
 
