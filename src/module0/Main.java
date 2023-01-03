@@ -1,5 +1,6 @@
 package module0;
 
+import module1.IfStatement;
 import module10.DivisionByZeroException;
 import module10.ExceptionDemo;
 import module11.IExample;
@@ -21,13 +22,13 @@ import java.util.*;
 public class Main {
   public static void main(String[] args) {
 
+    IfStatement is = new IfStatement();
+    is.foo();
 
 
-
-
-
-
-
+    Vehicle car = new Vehicle();
+    System.out.println(car.getColor());
+    System.out.println(car.setWheels(6));
 
        /*JOptionPane.showMessageDialog(null, "Значок, что ты дурачок");
 
