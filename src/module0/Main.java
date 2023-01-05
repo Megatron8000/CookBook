@@ -22,13 +22,7 @@ import java.util.*;
 public class Main {
   public static void main(String[] args) {
 
-    IfStatement is = new IfStatement();
-    is.foo();
-
-    Auto car = new Auto(250, "black", 4, true);
-    System.out.println(car.getColor());
-
-
+    System.out.println("It's alive! It's alive!");
 
 
 
