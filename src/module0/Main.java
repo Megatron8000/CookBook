@@ -1,25 +1,5 @@
 package module0;
 
-import module1.IfStatement;
-import module10.DivisionByZeroException;
-import module10.ExceptionDemo;
-import module11.IExample;
-import module11.Movable;
-import module12.IntString;
-import module12.Str;
-import module13.MapReference;
-import module13.Sort;
-import module13.Spisok;
-import module14.*;
-import module4.Vehicle;
-import module8.Auto;
-import module9.*;
-
-import javax.swing.*;
-import java.sql.Array;
-import java.util.*;
-
-
 public class Main {
   public static void main(String[] args) {
 
